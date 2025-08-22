@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure SunWEG",
+        "description": "Enter your SunWEG account credentials.",
+        "data": {
+          "username": "Email",
+          "password": "Password"
+        }
+      },
+      "select_plant": {
+        "title": "Select Plant",
+        "description": "Choose the photovoltaic plant you wish to monitor.",
+        "data": {
+          "plant_id": "Plant"
+        }
+      }
+    },
+    "error": {
+      "auth": "Invalid username or password.",
+      "cannot_connect": "Could not connect to SunWEG.",
+      "no_plants": "No plants found in your account.",
+      "unknown": "Unknown error occurred."
+    }
+  }
+}
