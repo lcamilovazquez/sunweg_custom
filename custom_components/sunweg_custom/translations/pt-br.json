@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar SunWEG",
+        "description": "Informe suas credenciais do SunWEG.",
+        "data": {
+          "username": "E-mail",
+          "password": "Senha"
+        }
+      },
+      "select_plant": {
+        "title": "Selecionar usina",
+        "description": "Escolha a usina fotovoltaica que deseja monitorar.",
+        "data": {
+          "plant_id": "Usina"
+        }
+      }
+    },
+    "error": {
+      "auth": "Usuário ou senha inválidos.",
+      "cannot_connect": "Não foi possível conectar ao SunWEG.",
+      "no_plants": "Nenhuma usina foi encontrada na sua conta.",
+      "unknown": "Ocorreu um erro desconhecido."
+    }
+  }
+}

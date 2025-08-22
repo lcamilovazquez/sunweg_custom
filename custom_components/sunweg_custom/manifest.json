@@ -1,0 +1,11 @@
+{
+  "domain": "sunweg_custom",
+  "name": "SunWEG",
+  "version": "1.0.0",
+  "documentation": "https://github.com/lcamilovazquez/sunweg_custom",
+  "issue_tracker": "https://github.com/lcamilovazquez/sunweg_custom/issues",
+  "dependencies": [],
+  "requirements": [],
+  "codeowners": ["@lcamilovazquez"],
+  "config_flow": true
+}
